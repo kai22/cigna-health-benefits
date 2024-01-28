@@ -40,14 +40,14 @@
     & h1 {
         margin-top: 10px;
         color: white;
-        font-family: "value-serif";
+        font-family: 'value-serif', 'Kaisei Decol', serif;
         font-size: 36px;
         opacity: 0;
     }
 
     & h4 {
         color:#FFFFFF;
-        font-family: "value-sans";
+        font-family: "value-sans", 'Montserrat', sans-serif;
         font-size: 16px;
         margin-bottom: 50px;
         opacity: 0;
@@ -57,7 +57,7 @@
 .midgard {
     & .body-text {
         display:block;
-        font-family: "value-sans";
+        font-family: "value-sans", 'Montserrat', sans-serif;;
         color: var(--cigna-graytext);
         font-size: 16px;
         line-height: 20px;
@@ -68,7 +68,7 @@
 
     & .savings-callout {
         color: var(--cigna-darkblue);
-        font-family: "value-sans";
+        font-family: "value-sans", 'Montserrat', sans-serif;;
         font-size: 14px;
         padding-left: 25px;
         font-weight: bold;
@@ -87,7 +87,7 @@
 
         & .pmpy-amount {
             color: var(--cigna-darkblue);
-            font-family: "value-serif";
+            font-family: 'value-serif', 'Kaisei Decol', serif;
             font-size: 43px;
             line-height:30px;
             text-align:right;
@@ -95,7 +95,7 @@
 
         & .pmpy-text {
             color: var(--cigna-darkblue);
-            font-family: "value-sans";
+            font-family: "value-sans", 'Montserrat', sans-serif;;
             font-size: 14px;
             line-height:15px;
         }
@@ -111,7 +111,7 @@
         .calculator {
             & h2 {
                 color: var(--cigna-darkblue);
-                font-family: "value-serif";
+                font-family: 'value-serif', 'Kaisei Decol', serif;
                 font-size: 24px;
                 margin-top: 30px;
                 margin-bottom: 20px;
@@ -126,7 +126,7 @@
                 padding-left:30px;
 
                 & .employee-label-text {
-                    font-family: "value-sans";
+                    font-family: "value-sans", 'Montserrat', sans-serif;;
                     line-height: 22px;
                 }
 
@@ -137,7 +137,7 @@
                     height: 40px;
                     box-shadow: -2px -2px 10px lightgray inset;
                     padding: 10px;
-                    font-family: "value-sans";
+                    font-family: "value-sans", 'Montserrat', sans-serif;;
                     font-size: 20px;
                     color: var(--cigna-darkblue);
                 }
@@ -150,7 +150,7 @@
                     border: none;
                     border-radius: 20px;
                     color: white;
-                    font-family: "value-sans";
+                    font-family: "value-sans", 'Montserrat', sans-serif;;
                     font-size: 12px;
                     padding: 7px;
                     transition: width .5s, color .5s;
@@ -171,7 +171,7 @@
 
                 & .total-savings-text {
                     display:block;
-                    font-family: "value-serif";
+                    font-family: 'value-serif', 'Kaisei Decol', serif;
                     color:var(--cigna-darkblue);
                     margin-top: 30px;
                     font-size: 42px;
@@ -180,7 +180,7 @@
 
                 & .total-savings-subtext {
                     color:var(--cigna-darkblue);
-                    font-family: "value-sans";
+                    font-family: "value-sans", 'Montserrat', sans-serif;;
                     font-size: 14px;
                     font-weight: bold;
                 }
@@ -195,7 +195,7 @@
                 margin-top: 20px;
                 vertical-align: middle;
                 color: var(--cigna-darkblue);
-                font-family: "value-serif";
+                font-family: 'value-serif', 'Kaisei Decol', serif;
                 font-size: 20px;
                 font-weight: bold;
                 line-height: 22px;
@@ -214,7 +214,7 @@
     & .footer-text {
         margin-top:20px;
         color: var(--cigna-darkblue);
-        font-family: "value-serif";
+        font-family: 'value-serif', 'Kaisei Decol', serif;
         font-size: 20px;
         font-weight: bold;
         line-height: 22px;
