@@ -1,0 +1,245 @@
+:root {
+    --cigna-blue: #0033FF;
+    --cigna-darkblue: #110081;
+    --cigna-gray: #F4F4F4;
+    --cigna-grayborder: #E0E0E0;
+    --cigna-graytext: #979797;
+    --cigna-green: #A1F7A1;
+}
+
+@font-face {
+    font-family: "value-serif";
+    src: url("../fonts/ValueSerifBold.woff") format('woff');
+}
+
+@font-face {
+    font-family: "value-sans";
+    src: url("../fonts/ValueSansPro-Medium.woff") format('woff');
+}
+
+
+.header {
+    background-color: var(--cigna-blue);
+    background-image: url("../images/leafs.png");
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top:20px;
+
+    & .cigna-logo {
+        width: auto;
+        height: 50px;
+        margin-bottom:20px;
+    }
+
+    & h1 {
+        margin-top: 10px;
+        color: white;
+        font-family: "value-serif";
+        font-size: 36px;
+    }
+
+    & h4 {
+        color:#FFFFFF;
+        font-family: "value-sans";
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+}
+
+.midgard {
+    & .body-text {
+        display:block;
+        font-family: "value-sans";
+        color: var(--cigna-graytext);
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 40px;
+        padding-right: 50px;
+        padding-left: 25px;
+    }
+
+    & .savings-callout {
+        color: var(--cigna-darkblue);
+        font-family: "value-sans";
+        font-size: 14px;
+        padding-left: 25px;
+        font-weight: bold;
+    }
+
+    .pmpy-box {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--cigna-gray);
+        border-radius: 35px 0px 35px 0px;
+        padding: 35px;
+        margin-bottom: 25px;
+        width:95%;
+
+        & .pmpy-amount {
+            color: var(--cigna-darkblue);
+            font-family: "value-serif";
+            font-size: 43px;
+            line-height:30px;
+            text-align:right;
+        }
+
+        & .pmpy-text {
+            color: var(--cigna-darkblue);
+            font-family: "value-sans";
+            font-size: 14px;
+            line-height:15px;
+        }
+    }
+
+    .pmpy-box .container {
+        width: 95%;
+    }
+
+    .form-area {
+        background-color: var(--cigna-gray);
+
+        .calculator {
+            & h2 {
+                color: var(--cigna-darkblue);
+                font-family: "value-serif";
+                font-size: 24px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+
+            .calculate-form {
+                display:block;
+                border: 1px solid var(--cigna-grayborder);
+                border-radius: 35px 0px 0px 0px;
+                background-color: white;
+                padding-top:20px;
+                padding-left:30px;
+
+                & .employee-label-text {
+                    font-family: "value-sans";
+                    line-height: 22px;
+                }
+
+                & .employee-input {
+                    display: block;
+                    border: none;
+                    width: 200px;
+                    height: 40px;
+                    box-shadow: -2px -2px 10px lightgray inset;
+                    padding: 10px;
+                    font-family: "value-sans";
+                    font-size: 20px;
+                    color: var(--cigna-darkblue);
+                }
+ 
+                & .savings-button {
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    width: 150px;
+                    background-color: var(--cigna-blue);
+                    border: none;
+                    border-radius: 20px;
+                    color: white;
+                    font-family: "value-sans";
+                    font-size: 12px;
+                    padding: 7px;
+                    transition: width .5s, color .5s;
+                }
+                & .savings-button:hover {
+                    color: var(--cigna-green);
+                    width: 175px;
+                }
+            }
+ 
+            .calculate-result {
+                display:block;
+                border-radius: 0px 0px 35px 0px;
+                border-right: 1px solid var(--cigna-grayborder);
+                border-top: 1px solid var(--cigna-grayborder);
+                border-bottom: 1px solid var(--cigna-grayborder);
+                background-color: var(--cigna-green);
+
+                & .total-savings-text {
+                    display:block;
+                    font-family: "value-serif";
+                    color:var(--cigna-darkblue);
+                    margin-top: 30px;
+                    font-size: 42px;
+                    font-weight: bold;
+                }
+
+                & .total-savings-subtext {
+                    color:var(--cigna-darkblue);
+                    font-family: "value-sans";
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+
+            & .leaf-text-wrapper {
+                padding:0px;
+                margin-bottom: 30px;
+            }
+
+            & .leaf-text {
+                margin-top: 20px;
+                vertical-align: middle;
+                color: var(--cigna-darkblue);
+                font-family: "value-serif";
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 22px;
+                padding-right: 180px;
+            }
+        }
+
+        .container.calculator {
+            width: 95%;
+        }
+    }
+}
+
+.footer {
+
+    & .footer-text {
+        margin-top:20px;
+        color: var(--cigna-darkblue);
+        font-family: "value-serif";
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 22px;
+    }
+
+    & .cigna-legal-text {
+        color: var(--cigna-graytext);
+        font-family: "Arial", sans-serif;
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding-right:70px;
+    }
+
+    & .cigna-legal-text > strong {
+        display: block;
+        font-family: "Arial", sans-serif;
+        margin-top:20px;
+    }
+}
+
+.cigna-leaf {
+    width: auto;
+    height: 35px;
+    vertical-align:top;
+    float: left;
+    margin: 5px;
+    margin-right:15px;
+ }
+
+.border-bottom {
+    border-bottom: 1px solid var(--cigna-gray);
+ }
+
+.service-mark {
+    font-size: 12px;
+ }
