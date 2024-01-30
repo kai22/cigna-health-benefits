@@ -135,6 +135,7 @@
                     border: none;
                     width: 200px;
                     height: 40px;
+                    -webkit-box-shadow: -2px -2px 10px lightgray inset;
                     box-shadow: -2px -2px 10px lightgray inset;
                     padding: 10px;
                     font-family: "value-sans", 'Montserrat', sans-serif;;
