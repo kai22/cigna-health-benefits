@@ -1,7 +1,6 @@
 import { CountUp } from '../libs/countUp.min.js';
 
 const average = 148;
-
 const countUp = new CountUp('totalText', 0, {
     duration: 1,
     useGrouping: true,
@@ -17,7 +16,6 @@ if (!countUp.error) {
 
 let button = document.querySelector(".savings-button");
 let input = document.querySelector(".employee-input")
-
 
 function textToNumber(t) {
     if (t == '')

@@ -2,40 +2,33 @@
     0% { transform: translateX(-150%);}
     100% { transform: translateX(0);}
 }
-
 @keyframes slideInFromBottom {
     0% { transform: translateY(100%); opacity: 0;}
     100% { transform: translateY(0); opacity: 1;}
 }
-
 @keyframes leafWave {
     0% { transform: skewX(0deg); }
     50% { transform: skewX(-10deg); }
     75% { transform: skewX(10deg); }
     100% { transform: skewX(0deg);}
 }
-
 .header {
     & h1 {
         animation: slideInFromBottom .5s ease-out forwards;
         -webkit-animation: slideInFromBottom .5s ease forwards;
     }
-
     & h4 {
         animation: slideInFromBottom .5s ease-out .3s forwards;
         -webkit-animation: slideInFromBottom .5s ease .3s forwards;
     }
 }
-
 .midgard {
     .pmpy-box {
         animation: slideInFromLeft 1s ease-out .6s forwards;
         -webkit-animation: slideInFromLeft 1s ease-out .6s forwards;
     }
 }
-
 .cigna-leaf {
     animation: leafWave 4.5s ease-in-out infinite;
     -webkit-animation: leafWave 4.5s ease-in-out infinite;
-    
 }

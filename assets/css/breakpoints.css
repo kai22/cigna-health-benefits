@@ -12,17 +12,14 @@
             height: 75px;
             margin-bottom:20px;
         }
-
         & h1 {
             font-size: 26px;
         }
-
         & h4 {
             font-size: 12px;
             margin-bottom: 0px;
         }
     }
-
     .midgard {
         & .body-text {
             font-size: 16px;
@@ -31,20 +28,16 @@
             padding-right: 40px;
             padding-left: 40px;
         }
-
         & .savings-callout {
             padding-left: 40px;
         }
-
         .pmpy-box {
             width:85%;
-
             & .pmpy-amount {
                 font-size: 60px;
                 line-height:30px;
                 text-align: center;
             }
-    
             & .pmpy-text {
                 font-size: 18px;
                 line-height:20px;
@@ -62,67 +55,55 @@
                 }
                 .calculate-form {
                     padding-left: 10px;
-
                     & .employee-label-text {
                         display: block;
                         text-align: center;
                         font-size: 16px;
                         line-height: 18px;
                     }
-
                     & .employee-input {
                         margin: 0px auto;
                         width: 225px;
                     }
-
                     & .savings-button {
                         display: block;
                         margin: 20px auto;
                     }
                 }
-
                 .calculate-result {
                     & .total-savings-text {
                         margin-top: 20px;
                         font-size: 42px;
                         font-weight: bold;
                     }
-            
                     & .total-savings-subtext {
                         font-size: 14px;
                         font-weight: bold;
                         margin-bottom: 30px;
                     }
                 }
-
                 & .leaf-text {
                     font-size: 16px;
                     padding-right: 0px;
                 } 
             }
-
             .container.calculator {
                 width: 85%;
             }
         }
     }
-
     .footer {
         & .cigna-legal-text {
             padding-right: 0px;
         }
     }
-
 }
-
-
 @media (min-width: 524px) and (max-width: 767px){
     .header {
         & h1 {
             font-size: 34px;
             padding-right: 70px;
         }
-
         & h4 {
             font-size: 16px;
             padding-right: 70px;
@@ -135,7 +116,6 @@
         & h1 {
             font-size: 30px;
         }
-
         & h4 {
             font-size: 14px;
         }
@@ -148,20 +128,16 @@
             padding-right: 0px;
             padding-left: 15px;
         }
-
         & .savings-callout {
             padding-left: 15px;
         }
-
         .pmpy-box {
             width: 90%;
-
             & .pmpy-amount {
                 font-size: 36px;
                 line-height:30px;
                 text-align: right;
             }
-    
             & .pmpy-text {
                 font-size: 12px;
                 line-height:14px;
@@ -179,7 +155,6 @@
                         font-size: 14px;
                         line-height: 16px;
                     }
-
                     & .employee-input {
                         width: 175px;
                     }
@@ -189,20 +164,17 @@
                         font-size: 36px;
                         font-weight: bold;
                     }
-            
                     & .total-savings-subtext {
                         font-size: 12px;
                         font-weight: bold;
                     }
                 }
-
                 & .leaf-text {
                     padding-right: 0px;
                 } 
             }
         }
     }
-
     .footer {
         & .cigna-legal-text {
             padding-right: 30px;
@@ -215,22 +187,18 @@
         & h1 {
             padding-right: 200px;
         }
-
         & h4 {
             padding-right: 200px;
         }
     }
-
     .midgard {
         .pmpy-box {
             width: 90%;
-
             & .pmpy-amount {
                 font-size: 50px;
                 line-height:30px;
                 text-align: right;
             }
-    
             & .pmpy-text {
                 font-size: 18px;
                 line-height:20px;
@@ -246,10 +214,7 @@
                 }
                 .calculate-form {
                     padding-left: 40px;
-
-                    
                 }
-
                 .calculate-result {
                     & .total-savings-text {
                         margin-top: 30px;
@@ -264,18 +229,15 @@
                         margin-bottom: 30px;
                     }
                 }
-
                 & .leaf-text {
                     font-size: 22px;
                     line-height:22px;
                     padding-right: 50px;
                 } 
             }
-
             .container.calculator {
                 width: 85%;
             }
         }
     }
-
 }

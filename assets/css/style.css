@@ -6,18 +6,14 @@
     --cigna-graytext: #747474;
     --cigna-green: #A1F7A1;
 }
-
 @font-face {
     font-family: "value-serif";
     src: url("../fonts/ValueSerifBold.woff") format('woff');
 }
-
 @font-face {
     font-family: "value-sans";
     src: url("../fonts/ValueSansPro-Medium.woff") format('woff');
 }
-
-
 .header {
     background-color: var(--cigna-blue);
     background-image: url("../images/leafs.png");
@@ -53,7 +49,6 @@
         opacity: 0;
     }
 }
-
 .midgard {
     & .body-text {
         display:block;
@@ -210,7 +205,6 @@
         }
     }
 }
-
 .footer {
 
     & .footer-text {
@@ -236,7 +230,6 @@
         margin-top:20px;
     }
 }
-
 .cigna-leaf {
     width: auto;
     height: 35px;
@@ -245,11 +238,9 @@
     margin: 5px;
     margin-right:15px;
  }
-
 .border-bottom {
     border-bottom: 1px solid var(--cigna-gray);
  }
-
 .service-mark {
     font-size: 12px;
  }
